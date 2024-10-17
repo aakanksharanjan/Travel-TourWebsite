@@ -46,6 +46,35 @@ section{
     padding: 5rem 10%;  
 }
 
+@keyframes fadeIn{
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+}
+
+.btn{
+    display: inline-block;
+    background: var(--black);
+    margin-top: 1rem;
+    color: var(--white);
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: var(--main-color);
+}
+
+.heading-title{
+    text-align: center;
+    margin-bottom: 3rem;
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--black);
+}
+
 .header{
     position: sticky;
     top: 0; left: 0; right: 0;
@@ -81,6 +110,140 @@ section{
     display: none;
 }
 
+.home{    
+     padding: 0; 
+     }
+
+.home{
+    text-align: center;
+    padding: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;;
+}
+
+.home .content{
+    width: 85rem;
+    display: none; 
+}
+
+.home .swiper-slide-active .content{
+    display: inline-block;
+}
+
+.home .content span{
+    display: block;
+    font-size: 2.2rem;
+    color: var(--light_white);
+    padding-bottom: 1rem;
+    animation:fadeIn .2s linear backwards .2s;
+}
+
+.home .content h3{
+    font-size: 6vw;
+    color: var(--white);
+    text-transform: uppercase;
+    line-height: 1;
+    text-shadow: var(--text-shadow);    
+    padding: 1rem 0;
+    animation:fadeIn .2s linear backwards .4s;
+}
+
+.home .content .btn{
+    animation:fadeIn .2s linear backwards .6s
+}
+
+.home .swiper-button-next,
+.home .swiper-button-prev{
+    top:inherit;
+    left: inherit;
+    bottom: 0;
+    right: 0;
+    height: 7rem;
+    width: 7rem;
+    background: var(--white);
+    color:var(--black)
+}
+
+.home .swiper-button-next:hover,
+.home .swiper-button-prev:hover{
+    background:var(--main-color);
+    color: var(--white);
+}
+
+.home .swiper-button-next::after,
+.home .swiper-button-prev::after{
+    font-size: 2rem;
+}
+
+.home .swiper-button-prev{
+    right: 7rem;
+}
+
+.services .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 1rem;
+}
+.services .box-container .box{
+    padding: 3rem 2rem;
+    text-align: center;
+    background-color: var(--main-color);
+    cursor: pointer;
+}
+
+.services .box-container .box:hover{
+    background: var(--black);  
+}
+
+.services .box-container .box img{
+    height: 5rem;
+}
+
+.services .box-container .box h3{
+    color: var(--white);
+    font-size: 1.7rem;
+    padding-top: 1rem;
+}
+
+.box img {
+    width: 45px; /* Adjust the width as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+.home-about{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-about .image{
+    flex: 1 1 41rem;
+}
+
+.home-about .image img{
+    width: 100%;
+}
+
+.home-about .content{
+    flex: 1 1 41rem;
+    padding-left: 3rem;
+    background: var(--light_bg);
+}
+
+.home-about .content h3{
+    font-size: 3rem;
+    color: var(--black);
+    padding-bottom: 1rem;
+}
+
+.home-about .content p{
+    font-size: 1.5rem;
+    color: var(--black);
+    padding: 1rem 0;line-height: 2;
+}
+
+
 
 
 
@@ -94,7 +257,7 @@ section{
     background: url(./images/footer-bg.png) no-repeat;
     background-size: cover;
     background-position: center;
-   
+   margin-top: 10px;
 }
 
 .footer .box-container{
@@ -140,7 +303,31 @@ section{
     color: var(--main-color);
 }
 
+.anda{
+    background-size: cover;
+    width: 100%;
+}
 
+/* Hide the services section by default */
+.home-only {
+    display: none;
+}
+
+/* Show the services section when on the home page */
+body.home .home-only {
+    display: block; /* or flex, depending on your layout */
+}
+
+.swiper-slide{
+    position: relative;
+    width: 100vw;
+    height:90vh;
+    background-size: cover;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 
 
@@ -177,6 +364,10 @@ section{
     }
     section{
         padding: 3rem 2rem;
+    }
+
+    .home .content h3{
+        font-size: 10vh;
     }
 }
 
@@ -219,5 +410,8 @@ section{
     }
     section{
         padding: 3rem 2rem;
+    }
+    .heading-title{
+        font-size: 3.5rem;
     }
 }

@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>About</title>
+    <title>Home</title>
 
        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
 
@@ -18,7 +18,7 @@
      <a href="home.php" class="logo">Travel.</a>
 
      <nav class="navbar">
-        <a href=“home.php”>Home</a>
+        <a href="home.php">Home</a>
         <a href="about.php">About</a> 
         <a href="package.php">Package</a> 
         <a href="book.php">Book</a> 
@@ -27,10 +27,9 @@
      <div id="menu-btn" class="fas fa-bars"></div>
 </section> 
  
-<div class="heading" style="background:url(images/heading-img-1.png) no-repeat ">
-    <h1>About us</h1>
+ <div class="heading" style="background:url(images/header-bg-2.png) no-repeat ">
+    <h1>About Us</h1>
 </div>
-
 
 
 
@@ -53,7 +52,7 @@
 
       <div class="box">
       <h3>Quick Links</h3>
-         <a href=“home.php”><i class="fas fa-angle-right"></i>Home</a>
+         <a href="home.php"><i class="fas fa-angle-right"></i>Home</a>
          <a href="about.php"><i class="fas fa-angle-right"></i>About</a> 
          <a href="package.php"><i class="fas fa-angle-right"></i>Package</a> 
          <a href="book.php"><i class="fas fa-angle-right"></i>Book</a> 
@@ -87,6 +86,15 @@
 
       
 </section>
+
+
+
+
+
+
+
+
+
 
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
