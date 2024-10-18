@@ -31,6 +31,58 @@
     <h1>About Us</h1>
 </div>
 
+<!-- about section starts -->
+
+<section class="about">
+
+   <div class="image">
+      <img src="images/about1.jpg" alt="">
+   </div>
+
+   <div class="content">
+      <h3>Why Choose Us?</h3>
+      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deleniti inventore illo corrupti illum eligendi! Quidem praesentium aut incidunt consectetur voluptatem!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit aspernatur aperiam numquam expedita quisquam repellat accusantium nihil vitae incidunt!</p>
+      <div class="icons-container">
+         <div class="icons">
+            <i class="fas fa-map"></i>   
+            <span>top destinations</span>      
+      </div>
+         <div class="icons">
+            <i class="fas fa-hand-holding-usd"></i>   
+            <span>affordable price</span>      
+         </div>
+         <div class="icons">
+            <i class="fas fa-headset"></i>   
+            <span>24/7 guide service</span>      
+         </div>
+      </div>
+   </div>
+
+</section>
+ <!-- about section ends -->
+
+<!-- review section starts -->
+
+<section class="reviews">
+   <div class="reviews-slider">
+      <div class="w">
+         <div class="slide">
+            <div class="stars">
+               <i class="fas-fa-star"></i>
+               <i class="fas-fa-star"></i>
+               <i class="fas-fa-star"></i>
+               <i class="fas-fa-star"></i>
+               <i class="fas-fa-star"></i>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat non, placeat quo voluptates saepe voluptatem iusto? Aut, reprehenderit! Recusandae quia accusantium, a quam possimus quod molestias adipisci eius amet consectetur.</p>
+            <h3>Mitchell</h3>
+            <span>traveler</span>
+            <img src="images/mitchell.png" alt="">
+         </div>
+      </div>
+   </div>
+</section>
 
 
 
@@ -42,9 +94,7 @@
 
 
 
-
-
-
+<!-- footer section starts -->
 
 <section class="footer">
 

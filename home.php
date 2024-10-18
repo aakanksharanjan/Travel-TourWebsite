@@ -131,11 +131,11 @@
 
 <section class="home-packages">
 
-   <h1 class="heading">Our Packages</h1>
+   <h1 class="heading-title">Our Packages</h1>
 
    <div class="box-container">
 
-   <div class="Box">
+   <div class="box">
       <div class="image">
          <img src="images/img-1.jpg" alt="">
       </div>
@@ -146,7 +146,7 @@
       </div>
    </div>
 
-   <div class="Box">
+   <div class="box">
       <div class="image">
          <img src="images/img-2.jpg" alt="">
       </div>
@@ -157,7 +157,7 @@
       </div>
    </div>
 
-   <div class="Box">
+   <div class="box">
       <div class="image">
          <img src="images/img-3.jpg" alt="">
       </div>
@@ -175,7 +175,15 @@
 
 </section>
 
-
+<!-- home offer section starts -->
+<section class="home-offer">
+   <div class="content">
+      <h3>Upto 50% off</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae unde dolorem laudantium perspiciatis excepturi odio blanditiis illo sunt neque quos ab quisquam, architecto facilis ex numquam, mollitia magnam cupiditate. Exercitationem!</p>
+      <a href="book.php" class="btn">Book Now</a>
+   </div>
+</section>
+<!-- home offer section ends -->
 
 
 
