@@ -551,13 +551,13 @@ body.home .home-only {
     display: block; /* or flex, depending on your layout */
 }
 
-.swiper-slide {
+/* .swiper-slide {
     background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem; /* Optional: Adds padding around each slide */
-}
+    padding: 2rem;
+} */
 
 
 
@@ -647,4 +647,126 @@ body.home .home-only {
     .heading-title{
         font-size: 3.5rem;
     }
+}
+
+
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+    user-select: none;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding: 2rem;
+    border: #222;
+    border: solid;
+    border-width: 0.1rem;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-slide .stars {
+    color: var(--main-color);
+}
+
+.swiper-slide p {
+    font-size: 1.5rem;
+    color: var(--light-black);
+    line-height: 2;
+    padding: 1rem 0;
+}
+
+.swiper-slide h3 {
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.swiper-slide span {
+    font-size: 1.5rem;
+    color: var(--main-color);
+    display: block;
+    margin-top: 1rem;
+}
+
+.profile-one {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/Mitchell.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.profile-two {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/tuonto.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.profile-three {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/kimdokja.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.profile-four {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/wednesday.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.profile-five {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/dawei.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.profile-six {
+    height: 60px;
+    width: 60px;
+    background-image: url(./images/edboon.png);
+    background-size: cover;
+    border-radius: 50%;
+    margin-top: 1rem;
+}
+
+.review-contain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4rem;
+    background-color: #E9E9E9;
+    padding: 4rem 10rem;
+}
+
+.review-title {
+    font-size: 6rem;
+    text-transform: uppercase;
+    color: var(--black);
 }

@@ -66,9 +66,11 @@
 
 <!-- review section starts -->
 
-<section class="reviews">
-   <h1 class="heading-title">Client Reviews</h1>
-   <div class="swiper reviews-slider">
+<!-- <section class="reviews"> -->
+
+<div class="review-contain">
+   <h1 class="review-title">CLIENTS REVIEWS</h1>
+   <div class="swiper mySwiper">
       <div class="swiper-wrapper">
          <div class="swiper-slide">
             <div class="stars">
@@ -78,37 +80,11 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat non, placeat quo voluptates saepe voluptatem iusto? Aut, reprehenderit! Recusandae quia accusantium, a quam possimus quod molestias adipisci eius amet consectetur.</p>
-            <h3>Mitchell Pritchett</h3>
-            <span>traveler</span>
-            <img src="images/mitchell.png" alt="">
+               <p>I've conquered this new kingdom. It's got everything - mountains, beaches, and a really annoying neighbor who keeps borrowing my scepter. I'm thinking of renaming it 'Maheshmati II: The Revenge of the Scepter Snatcher.' Or maybe just 'Scepter City.</p>
+               <h3>Mitchell Rajmata</h3>
+               <span>Maheshmati King</span>
+               <div class="profile-one"></div>
          </div>
-
-         <div class="swiper-slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque consequatur, quia dolore saepe aspernatur maiores aliquam odio assumenda ab deserunt molestiae, quod tempora aut nobis! Sint eum fugit praesentium, aliquam cumque optio ducimus molestias facere similique, voluptatibus, omnis nobis est!.</p>
-            <h3>Kim Dokja</h3>
-            <span>traveler</span>
-            <img src="images/kimdokja.png" alt="">
-         </div>
-
-         <div class="swiper-slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime eveniet culpa excepturi modi possimus rerum rem ullam voluptatem. Exercitationem soluta nihil minus nulla culpa, mollitia magnam velit quisquam vel aut? Ex asperiores corrupti quaerat maiores esse labore ratione quisquam beatae!</p>
-            <h3>Jake Tuonto</h3>
-            <span>traveler</span>
-            <img src="images/tuonto.png" alt="">
-         </div>
-
          <div class="swiper-slide">
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -117,25 +93,11 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima quis, debitis cumque consectetur officia sunt eum iusto harum nesciunt, animi maxime in eius amet facere, eos earum minus incidunt magnam vero consequuntur enim? Nesciunt voluptates cum praesentium temporibus eius itaque?</p>
-            <h3>Wednesday Addams</h3>
-            <span>traveler</span>
-            <img src="images/wednesday.png" alt="">
+               <p>I'm so broke from pulling for characters that I'm considering selling my primogems to fund my real-life adventures.</p>
+               <h3>Two Onto You</h3>
+               <span>Professional Whale</span>
+               <div class="profile-two"></div>
          </div>
-
-         <div class="swiper-slide">
-            <div class="stars">
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-               <i class="fas fa-star"></i>
-            </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora sit possimus ut accusantium architecto debitis libero impedit consequuntur deserunt quam modi, ad ab consequatur in esse quis doloribus magnam placeat sunt qui rem, accusamus pariatur voluptas. Temporibus voluptatibus expedita reprehenderit repellendus porro voluptates maxime suscipit.</p>
-            <h3>Ed Boon</h3>
-            <span>traveler</span>
-            <img src="images/edboon.png" alt="">
-         </div>
-
          <div class="swiper-slide">
             <div class="stars">
                <i class="fas fa-star"></i>
@@ -144,16 +106,132 @@
                <i class="fas fa-star"></i>
                <i class="fas fa-star"></i>
             </div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro iste error, natus repellendus reprehenderit perferendis consectetur necessitatibus molestias voluptates iure!</p>
-            <h3>Da Wei</h3>
-            <span>traveler</span>
-            <img src="images/dawei.png" alt="">
+               <p>I've been so busy with world affairs that I've forgotten my own birthday. Twice. I guess that's what happens when you're the leader of the free world.</p>
+               <h3>Kim Jong Unn</h3>
+               <span>The Button Haver</span>
+               <div class="profile-three"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>. . .</p>
+               <h3>Budhawaar</h3>
+               <span>Comes after Tuesday</span>
+               <div class="profile-four"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>Being named 'Dawai Medicine' has its perks. People assume I'm a walking encyclopedia of medical knowledge. But being a living medicine also has its drawbacks. People expect me to be immune to all diseases. And then there's the constant barrage of 'feel better' wishes. I'm not actually sick. I'm just a guy with a really interesting name.</p>
+               <h3>Dawai Medicine</h3>
+               <span>Medical Man</span>
+               <div class="profile-five"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>I've been so unlucky, I once tripped over a rock and fell into a pot of gold. Now I'm cursed with riches.</p>
+               <h3>Edboon Curse</h3>
+               <span>Kamchor</span>
+               <div class="profile-six"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>I've conquered this new kingdom. It's got everything - mountains, beaches, and a really annoying neighbor who keeps borrowing my scepter. I'm thinking of renaming it 'Maheshmati II: The Revenge of the Scepter Snatcher.' Or maybe just 'Scepter City.</p>
+               <h3>Mitchell Rajmata</h3>
+               <span>Maheshmati King</span>
+               <div class="profile-one"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>I'm so broke from pulling for characters that I'm considering selling my primogems to fund my real-life adventures.</p>
+               <h3>Two Onto You</h3>
+               <span>Professional Whale</span>
+               <div class="profile-two"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>I've been so busy with world affairs that I've forgotten my own birthday. Twice. I guess that's what happens when you're the leader of the free world.</p>
+               <h3>Kim Jong Unn</h3>
+               <span>The Button Haver</span>
+               <div class="profile-three"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>I've tried being normal. It's boring. I prefer to be delightfully morbid.</p>
+               <h3>Budhawaar</h3>
+               <span>Comes after Tuesday</span>
+               <div class="profile-four"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>People always ask me if I'm feeling well. I mean, I'm a medicine, what do you think?</p>
+               <h3>Dawai Medicine</h3>
+               <span>Medical Man</span>
+               <div class="profile-five"></div>
+         </div>
+         <div class="swiper-slide">
+            <div class="stars">
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+               <i class="fas fa-star"></i>
+            </div>
+               <p>Some people say I'm a walking contradiction. They claim my name is a blessing and a curse. But I see it as a perfect balance. The 'boon' part gives me hope. The 'curse' part keeps me grounded.</p>
+               <h3>Edboon Curse</h3>
+               <span>Kamchor</span>
+               <div class="profile-six"></div>
          </div>
       </div>
+      <div class="swiper-pagination"></div>
    </div>
-</section>
-
-
+</div>
 
 
 
@@ -165,6 +243,7 @@
 
 
 <!-- footer section starts -->
+
 
 <section class="footer">
 
