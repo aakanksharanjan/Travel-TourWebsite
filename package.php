@@ -31,7 +31,127 @@
     <h1>Packages</h1>
 </div>
 
+<!-- packages section starts -->
 
+<section class="packages">
+
+<h1 class="heading-title">Top Destinations</h1>
+
+<div class="box-container">
+   <div class="box">
+      <img src="images/img-1.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-2.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-3.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-4.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-5.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-6.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-7.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-8.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-9.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-10.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-11.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+   <div class="box">
+      <img src="images/img-12.jpg" alt="" class="destination-img">
+      <div class="content">
+         <h3>Adventure & Tour</h3>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione, blanditiis?</p>
+         <a href="book.php" class="btn">Book Now</a>
+      </div>
+   </div>
+
+</div>
+
+<div class="load-more"><span class="btn">Load More</span></div>
+
+</section>
+<!-- packages section ends -->
 
 
 

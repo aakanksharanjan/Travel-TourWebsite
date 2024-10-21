@@ -15,7 +15,7 @@
 
  <section class="header">
 
-     <a href="home.php" class="logo">Travel.</a>
+     <a href="home.php" class="logo">Travel!</a>
 
      <nav class="navbar">
         <a href="home.php">Home</a>
@@ -76,32 +76,32 @@
    <div class="box-container">
 
       <div class="box">
-         <img src="images/icon-1.svg" alt="">
+         <img src="images/icon-1.svg" alt="" class="icons">
          <h3>Adventures</h3>
       </div>
                       
       <div class="box">
-         <img src="images/icon-2.svg" alt="">
+         <img src="images/icon-2.svg" alt="" class="icons">
          <h3>Tour Guides</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-3.svg" alt="">
+         <img src="images/icon-3.svg" alt="" class="icons">
          <h3>Trekking</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-4.svg" alt="">
+         <img src="images/icon-4.svg" alt="" class="icons">
          <h3>Camp Fire</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-5.svg" alt="">
+         <img src="images/icon-5.svg" alt="" class="icons">
          <h3>Off Road</h3>
       </div>
 
       <div class="box">
-         <img src="images/icon-6.svg" alt="">
+         <img src="images/icon-6.svg" alt="" class="icons">
          <h3>Camping</h3>
    </div>
 

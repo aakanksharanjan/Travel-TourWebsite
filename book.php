@@ -31,7 +31,53 @@
     <h1>Book now</h1>
 </div>
 
+<!-- booking section starts -->
 
+<section class="booking">
+
+   <h1 class="heading-title">Book Your Trip!</h1>
+   <form action="book_form.php" method="post" class="book-form">
+
+      <div class="flex">
+         <div class="inputBox">
+            <span>Name:</span>
+            <input type="text" placeholder="eg: Aakanksha Ranjan" name="name">
+         </div>
+         <div class="inputBox">
+            <span>Email:</span>
+            <input type="email" placeholder="eg: aak.ran.rt23@dypatil.edu" name="email">
+         </div>
+         <div class="inputBox">
+            <span>Phone:</span>
+            <input type="number" placeholder="eg: xxxxxxxxxx" name="phone">
+         </div>
+         <div class="inputBox">
+            <span>Address:</span>
+            <input type="text" placeholder="Enter your address" name="address">
+         </div>
+         <div class="inputBox">
+            <span>Destination:</span>
+            <input type="text" placeholder="eg: Ohio" name="location">
+         </div>
+         <div class="inputBox">
+            <span>Number of Guests:</span>
+            <input type="number" placeholder="Number of guests" name="guests">
+         </div>
+         <div class="inputBox">
+            <span>Arrival:</span>
+            <input type="date" name="location">
+         </div>
+         <div class="inputBox">
+            <span>Departure:</span>
+            <input type="date" name="leaving">
+         </div>
+      </div>
+ 
+      <input type="submit" value="Submit" class="btn" name="send">
+
+   </form>
+
+</section>
 
 
 

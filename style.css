@@ -54,7 +54,7 @@ section{
 }
 
 .heading{
-    background-size: cover;
+    background-size: 100%;
     background-position: center;
     padding-top: 10rem;
     padding-bottom: 15rem;
@@ -223,7 +223,7 @@ section{
     padding-top: 1rem;
 }
 
-.box img {
+.box .icons {
     width: 45px; /* Adjust the width as needed */
     height: auto; /* Maintains aspect ratio */
 }
@@ -447,6 +447,16 @@ section{
     border: var(--border);
     box-shadow: var(--box-shadow);
     background: var(--white);
+    display: none;
+}
+
+.packages .box-container .box:nth-child(1),
+.packages .box-container .box:nth-child(2),
+.packages .box-container .box:nth-child(3),
+.packages .box-container .box:nth-child(4),
+.packages .box-container .box:nth-child(5),
+.packages .box-container .box:nth-child(6){
+    display: inline-block;
 }
 
 .packages .box-container .box .image{
@@ -480,6 +490,58 @@ section{
 
 .packages .load-more{
     text-align: center;
+    margin-top: 2rem;
+}
+
+.destination-img {
+    width: 100%;          
+    height: 250px;        
+    object-fit: cover;    
+    border-radius: 10px;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    transition: transform 0.3s ease; 
+}
+
+.booking .book-form{
+    padding: 2rem;
+    background: var(--light-bg);
+}
+
+.booking .book-form .flex{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.booking .book-form .flex .inputBox{
+    flex: 1 1 41rem;
+}
+
+.booking .book-form .flex .inputBox input{
+    width: 100%;
+    padding: 1.2rem 1.4rem;
+    font-size: 1.6rem;
+    color: var(--light-black);
+    text-transform: none;
+    margin-top: var(--border);
+}
+
+.booking .book-form .flex .inputBox input:focus{
+    background: var(--black);
+    color: var(--white);
+}
+
+.booking .book-form .flex .inputBox input:focus::placeholder{
+    background: var(--black);
+    color: var(--light_white);
+}
+
+.booking .book-form .flex .inputBox span{
+    font-size: 1.5rem;
+    color: var(--light-black);
+}
+
+.booking .book-form .btn{
     margin-top: 2rem;
 }
 
